@@ -12,7 +12,6 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -103,7 +102,8 @@ public class ImagesCreator {
                         extendedData[rnd + i] = payload[i];
                     }
 
-                    // Files.write(pathI, extendedData, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING);
+                    // Files.write(pathI, extendedData, StandardOpenOption.WRITE,
+                    // StandardOpenOption.TRUNCATE_EXISTING);
 
                     if (changeExif) {
                         addExifPayload(pathI, payload);
