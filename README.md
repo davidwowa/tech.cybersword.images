@@ -1,3 +1,7 @@
+# tech.cybersword.images  
+
+Tool for images(jpeg,png,bmp,gif,wbmp) file generation with injected payload.
+
 # Maven build  
 `~/java_env/maven/bin/mvn archetype:generate -DgroupId=tech.cybersword -DartifactId=tech.cybersword.images -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`  
 # build  
@@ -15,6 +19,4 @@
 
 # payloads  
 
-- https://github.com/payloadbox/command-injection-payload-list
-- https://github.com/payloadbox/xss-payload-list
-- 
+- https://github.com/davidwowa/tech.cybersword.payloads 
